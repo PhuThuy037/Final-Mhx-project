@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/SummerGreen
+    username: user
+    password: pass
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      database: postgresql
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
+#Test
+secret:
+  jwt:
+    string: "1DBB1AC5F984DFAF3986FF329723BhFnGcUwd3LoSCD5u3HWiVItShbOLh3BP"
+
